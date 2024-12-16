@@ -1,7 +1,9 @@
 
 # Official Website - MLSC Amity
 
-Welcome to the MLSC Amity website repository! We encourage community contributions to enhance this project. 
+Welcome to the MLSC Amity website repository! We encourage community contributions to enhance this project.
+
+You can see the **live demo** : [www.mlsc-amity.tech](https://www.mlsc-amity.tech)
 
 ## Contributing Guidelines
 
@@ -54,5 +56,4 @@ Additional Tips:
 By following these guidelines, you can contribute effectively to the MLSC Amity website and help improve the project.
 
 ## Contributors
-<!-- ALL-CONTRIBUTORS-LIST:START -->
-<!-- ALL-CONTRIBUTORS-LIST:END -->
+![contributors](https://contrib.rocks/image?repo=mlsc-amity/mlsc-amity)
