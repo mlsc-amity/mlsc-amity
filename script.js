@@ -12,6 +12,7 @@ const teamMembers = [
         imageSrc: './assets/members/diksha.jpg',
         profileLink: 'https://www.linkedin.com/in/diksha1406/'
     },
+
     {
         name: 'Aadya Chopra',
         role: 'Former-Intern @BharatXR | Design Team Lead @ MLSC | Amity\'26 | B tech CSE with Data Science (Hons) | Data Science | UI/UX Designing | Graphics Designing',
