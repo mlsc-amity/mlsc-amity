@@ -20,6 +20,12 @@ const teamMembers = [
         profileLink: 'https://www.linkedin.com/in/aadyachopra/'
     },
     {
+        name: 'Deep Agarwal',
+        role: 'CSE Enthusiasts | AI ML | 2022-26 | Excited to explore the world of tech!',
+        imageSrc: './assets/members/Deep.JPG',
+        profileLink: 'https://www.linkedin.com/in/deep-agarwal-8a0363250'
+    },
+    {
         name: 'Anam Singh',
         role: 'Dedicated and driven CSE undergrad with a passion for Software Development. Currently pursuing my bachelor\'s degree at Amity University. Eager to apply my technical skills and problem-solving abilities to real-world projects. Seeking opportunities to collaborate with talented developers and gain hands-on experience in the tech industry. Worked as an Assistant Program Manager in Season of AI conducted by MLSC Amity ✨',
         imageSrc: './assets/members/anam.jpg',
