@@ -12,11 +12,18 @@ const teamMembers = [
         imageSrc: './assets/members/diksha.jpg',
         profileLink: 'https://www.linkedin.com/in/diksha1406/'
     },
+
     {
         name: 'Aadya Chopra',
         role: 'Former-Intern @BharatXR | Design Team Lead @ MLSC | Amity\'26 | B tech CSE with Data Science (Hons) | Data Science | UI/UX Designing | Graphics Designing',
         imageSrc: './assets/members/aadya.jpg',
         profileLink: 'https://www.linkedin.com/in/aadyachopra/'
+    },
+    {
+        name: 'Deep Agarwal',
+        role: 'CSE Enthusiasts | AI ML | 2022-26 | Excited to explore the world of tech!',
+        imageSrc: './assets/members/Deep.JPG',
+        profileLink: 'https://www.linkedin.com/in/deep-agarwal-8a0363250'
     },
     {
         name: 'Anam Singh',
