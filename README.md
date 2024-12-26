@@ -56,4 +56,3 @@ Additional Tips:
 By following these guidelines, you can contribute effectively to the MLSC Amity website and help us improve the project.
 
 ## Contributors
-![contributors](https://contrib.rocks/image?repo=mlsc-amity/mlsc-amity)
