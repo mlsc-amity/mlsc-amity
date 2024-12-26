@@ -1,4 +1,7 @@
 
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 # Official Website - MLSC Amity
 
 Welcome to the MLSC Amity website repository! We encourage community contributions to enhance this project.
@@ -57,3 +60,19 @@ By following these guidelines, you can contribute effectively to the MLSC Amity 
 
 ## Contributors
 ![contributors](https://contrib.rocks/image?repo=mlsc-amity/mlsc-amity)
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Deep34572862"><img src="https://avatars.githubusercontent.com/u/128357366?v=4?s=100" width="100px;" alt="Deep Agarwal"/><br /><sub><b>Deep Agarwal</b></sub></a><br /><a href="https://github.com/mlsc-amity/mlsc-amity/commits?author=Deep34572862" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
