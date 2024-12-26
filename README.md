@@ -53,7 +53,7 @@ Additional Tips:
 * **Test Thoroughly:** Test your changes to ensure they don't break any existing functionality.
 * **Be Patient and Respectful:** Remember that open-source development is a collaborative process. Be patient and respectful of other contributors.
 
-By following these guidelines, you can contribute effectively to the MLSC Amity website and help improve the project.
+By following these guidelines, you can contribute effectively to the MLSC Amity website and help us improve the project.
 
 ## Contributors
 ![contributors](https://contrib.rocks/image?repo=mlsc-amity/mlsc-amity)
