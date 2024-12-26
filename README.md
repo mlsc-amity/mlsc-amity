@@ -59,16 +59,14 @@ Additional Tips:
 By following these guidelines, you can contribute effectively to the MLSC Amity website and help us improve the project.
 
 ## Contributors
-![contributors](https://contrib.rocks/image?repo=mlsc-amity/mlsc-amity)
-
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
   <tbody>
     <tr>
+            <td align="center" valign="top" width="14.28%"><a href="https://github.com/rajatuiwebdev"><img src="https://avatars.githubusercontent.com/u/109746630?v=4?s=100" width="100px;" alt="Rajat Rajput"/><br /><sub><b>Rajat Rajput</b></sub></a><br /><a href="#projectManagement-rajatuiwebdev" title="Project Management">📆</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Deep34572862"><img src="https://avatars.githubusercontent.com/u/128357366?v=4?s=100" width="100px;" alt="Deep Agarwal"/><br /><sub><b>Deep Agarwal</b></sub></a><br /><a href="https://github.com/mlsc-amity/mlsc-amity/commits?author=Deep34572862" title="Code">💻</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/rajatuiwebdev"><img src="https://avatars.githubusercontent.com/u/109746630?v=4?s=100" width="100px;" alt="Rajat Rajput"/><br /><sub><b>Rajat Rajput</b></sub></a><br /><a href="#projectManagement-rajatuiwebdev" title="Project Management">📆</a></td>
     </tr>
   </tbody>
 </table>
