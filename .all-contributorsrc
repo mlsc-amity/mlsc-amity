@@ -15,6 +15,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "rajatuiwebdev",
+      "name": "Rajat Rajput",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109746630?v=4",
+      "profile": "https://github.com/rajatuiwebdev",
+      "contributions": [
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 7,
