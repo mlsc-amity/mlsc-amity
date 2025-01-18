@@ -12,7 +12,6 @@ const teamMembers = [
         imageSrc: './assets/members/diksha.jpg',
         profileLink: 'https://www.linkedin.com/in/diksha1406/'
     },
-
     {
         name: 'Aadya Chopra',
         role: 'Former-Intern @BharatXR | Design Team Lead @ MLSC | Amity\'26 | B tech CSE with Data Science (Hons) | Data Science | UI/UX Designing | Graphics Designing',
@@ -21,14 +20,14 @@ const teamMembers = [
     },
     {
         name: 'Deep Agarwal',
-        role: 'CSE Enthusiasts | AI ML | 2022-26 | Excited to explore the world of tech!',
+        role: 'CSE Enthusiasts | AI ML | Excited to explore the world of tech!',
         imageSrc: './assets/members/Deep.JPG',
         profileLink: 'https://www.linkedin.com/in/deep-agarwal-8a0363250'
     },
     {
         name: 'Anam Singh',
-        role: 'Dedicated and driven CSE undergrad with a passion for Software Development. Currently pursuing my bachelor\'s degree at Amity University. Eager to apply my technical skills and problem-solving abilities to real-world projects. Seeking opportunities to collaborate with talented developers and gain hands-on experience in the tech industry. Worked as an Assistant Program Manager in Season of AI conducted by MLSC Amity ✨',
-        imageSrc: './assets/members/anam.jpg',
+        role: 'Dedicated and driven CSE undergrad with a passion for Software Development. Eager to apply my technical skills and problem-solving abilities to real-world projects. Worked as an Assistant Program Manager in Season of AI conducted by MLSC Amity ✨',
+        imageSrc: './assets/members/Anam.jpeg',
         profileLink: 'https://www.linkedin.com/in/anam-singh-142182231/'
     },
     {
@@ -47,33 +46,33 @@ const teamMembers = [
         name: 'Archi Awana',
         role: 'Computer engineering student',
         imageSrc: './assets/members/archi.jpg',
-        profileLink: 'https://www.linkedin.com/in/imanurag2311/'
+        profileLink: 'https://www.linkedin.com/in/archi-awana-752ab1323'
     },
     {
         name: 'Archita Bhattacharya',
         role: 'Cloud Computing Explorer | Aspiring DevOps Engineer',
         imageSrc: './assets/members/archita.jpg',
-        profileLink: 'https://www.linkedin.com/in/imanurag2311/'
+        profileLink: 'https://www.linkedin.com/in/archita-bhattacharya-a5a365291'
     },    {
         name: 'Ayush Kumar',
         role: 'CSE Enthusiast, Video Editor',
         imageSrc: './assets/members/ayush.jpg',
-        profileLink: 'https://www.linkedin.com/in/imanurag2311/'
+        profileLink: 'https://www.linkedin.com/in/ayushhz/'
     },    {
         name: 'Kanchan Rai',
         role: 'Building with ML | Designing | GDG On Campus Lead',
         imageSrc: './assets/members/kanchan.jpg',
-        profileLink: 'https://www.linkedin.com/in/imanurag2311/'
+        profileLink: 'https://www.linkedin.com/in/kanchan-rai-90271a24a'
     },    {
         name: 'Pratham Gaur',
         role: '2nd Year B.Tech CSE Data Science | @Amity University Noida  | Python | NPTEL IIT Madras Python | MySQL | C Programming | Learning C++ Programming and Web Development',
         imageSrc: './assets/members/pratham.jpg',
-        profileLink: 'https://www.linkedin.com/in/imanurag2311/'
+        profileLink: 'https://www.linkedin.com/in/pratham-gaur-ba345128a'
     },    {
         name: 'Priyansi Nayak',
         role: 'Operations & PR/Editorial Team @ MLSC',
         imageSrc: './assets/members/priyansi.jpg',
-        profileLink: 'https://www.linkedin.com/in/imanurag2311/'
+        profileLink: 'https://www.linkedin.com/in/priyansi-nayak-a1a94b244'
     },    {
         name: 'Reeti Mehra',
         role: 'Psychology, working as an intern in 2 ngos right now',
@@ -83,24 +82,49 @@ const teamMembers = [
         name: 'Saisha Goel',
         role: 'AI/ML Enthusiast || Content Writer || Aspiring Developer || CSE’27',
         imageSrc: './assets/members/saisha.jpg',
-        profileLink: 'https://www.linkedin.com/in/imanurag2311/'
+        profileLink: 'https://www.linkedin.com/in/saisha-goel'
     },    {
         name: 'Shiven Vasan',
         role: 'Student | Part time Philosopher',
         imageSrc: './assets/members/shiven.jpg',
-        profileLink: 'https://www.linkedin.com/in/imanurag2311/'
+        profileLink: 'https://www.linkedin.com/in/shivenvasan'
     },    {
         name: 'Simran',
         role: 'undergraduate in btech cse | web development and aiml enthusiast',
         imageSrc: './assets/members/simran.jpg',
-        profileLink: 'https://www.linkedin.com/in/imanurag2311/'
+        profileLink: 'https://www.linkedin.com/in/simran-nagpal-a28169296'
     },
     ,    {
         name: 'Yashika Verma',
         role: 'B.Tech Artificial Intelligence Student | Intern @ Codsoft | Joint Secretary @ ASET | Event Organizer | Oman Women\'s National Cricket Team Ex-Member |',
-        imageSrc: './assets/members/yashikav.jpg',
-        profileLink: 'https://www.linkedin.com/in/imanurag2311/'
+        imageSrc: './assets/members/yashika.jpg',
+        profileLink: 'https://www.linkedin.com/in/yashika-verma-83074922a'
     },
+    {
+        name: 'Vanshika Chauhan',
+        role: 'Data science and analysis | Volunteer @LittleSeedsNGO | PR and Operation team @MLSC | CRC Volunteer @AIB | Btech. Bioinformatics student | Amity University Noida',
+        imageSrc: './assets/members/Vanshika.jpg',
+        profileLink: 'https://www.linkedin.com/in/vanshika-chauhan-vc2003'
+    },
+    {
+        name: 'Shashank Upadhyay ',
+        role: 'Computer Science & Engineering Student (B.Tech.) | Specializing in Data Science at Amity University | B2.1 Level German Student at Goethe Institut/Max Mueller Bhavan',
+        imageSrc: './assets/members/Shashank.jpeg',
+        profileLink: 'https://www.linkedin.com/in/shashank131106'
+    },
+    {
+        name: 'Faizan Ahmaad',
+        role: 'Building Frontend | Backend Developer | Flutter Developer | Ui/Ux Designer | Graphic Designing | Frontend Developer Learning Ai/Ml',
+        imageSrc: './assets/members/Faizan.jpg',
+        profileLink: 'https://www.linkedin.com/in/faizanahmaad/'
+    },
+    {
+        name: 'Siddharth Gupta ',
+        role: 'Front-end developer | Microsoft Learn Student Community Core team member | CSE27',
+        imageSrc: './assets/members/Siddharth.jpeg',
+        profileLink: 'https://www.linkedin.com/in/siddharth-gupta1003/'
+    },
+    
 ];
 
 // Function to generate team members dynamically
