@@ -161,12 +161,14 @@ function generateTeamMembers() {
         const imageWrapper = document.createElement('div');
         imageWrapper.className = 'flex object-cover';
         const image = document.createElement('img');
-        image.height = 500;
-        image.width = 560;
+        image.style.width = '500px';    
+        image.style.height = '450px';
+        image.style.objectFit = 'cover';
         image.src = member.imageSrc;
         image.alt = member.name;
         image.className = 'group-hover:scale-110 duration-300';
         image.loading = 'lazy';
+
 
         imageWrapper.appendChild(image);
         imageContainer.appendChild(imageWrapper);
