@@ -19,10 +19,16 @@ const teamMembers = [
         profileLink: 'https://www.linkedin.com/in/aadyachopra/'
     },
     {
-        name: 'Deep Agarwal',
-        role: 'CSE Enthusiasts | AI ML | Excited to explore the world of tech!',
-        imageSrc: './assets/members/Deep.JPG',
-        profileLink: 'https://www.linkedin.com/in/deep-agarwal-8a0363250'
+        name: 'Vedant Tyagi',
+        role: 'Deploying and Securing Applications | Technical Team Member @ MLSC Amity | Cloud Computing | DevOps',
+        imageSrc: './assets/members/Vedant.jpeg',
+        profileLink: 'https://www.linkedin.com/in/vedanttyagi18'
+    },
+    {
+        name: 'Deewakar Singh',
+        role: 'Social Media Team @ Microsoft Learn Student Community | Aerospace Engineering | Computer Science !',
+        imageSrc: './assets/members/Deewakar.jpeg',
+        profileLink: 'https://www.linkedin.com/in/deewakar-singh/'
     },
     {
         name: 'Anam Singh',
@@ -63,7 +69,15 @@ const teamMembers = [
         role: 'Building with ML | Designing | GDG On Campus Lead',
         imageSrc: './assets/members/kanchan.jpg',
         profileLink: 'https://www.linkedin.com/in/kanchan-rai-90271a24a'
-    },    {
+    },
+    {
+        name: 'Deep Agarwal',
+        role: 'CSE Enthusiasts | AI ML | Excited to explore the world of tech!',
+        imageSrc: './assets/members/Deep.JPG',
+        profileLink: 'https://www.linkedin.com/in/deepagarwal07'
+    },  
+    
+    {
         name: 'Pratham Gaur',
         role: '2nd Year B.Tech CSE Data Science | @Amity University Noida  | Python | NPTEL IIT Madras Python | MySQL | C Programming | Learning C++ Programming and Web Development',
         imageSrc: './assets/members/pratham.jpg',
