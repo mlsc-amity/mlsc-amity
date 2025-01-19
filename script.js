@@ -8,7 +8,7 @@ const teamMembers = [
     },
     {
         name: 'Deep Agarwal',
-        role: ' Intern @NeoByte Career Acceleration Program offered by Kernel Synergy| CSE Enthusiasts | AI ML | Excited to explore the world of tech!',
+        role: 'Intern @NeoByte Career Acceleration Program offered by Kernel Synergy | CSE Enthusiasts | AI ML | Excited to explore the world of tech!',
         imageSrc: './assets/members/Deep.JPG',
         profileLink: 'https://www.linkedin.com/in/deepagarwal07'
     }, 
@@ -81,7 +81,7 @@ const teamMembers = [
         role: 'Operations & PR/Editorial Team @ MLSC',
         imageSrc: './assets/members/priyansi.jpg',
         profileLink: 'https://www.linkedin.com/in/priyansi-nayak-a1a94b244'
-    }, 
+    },
     {
         name: 'Saisha Goel',
         role: 'AI/ML Enthusiast || Content Writer || Aspiring Developer || CSE’27',
