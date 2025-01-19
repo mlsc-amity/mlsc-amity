@@ -7,11 +7,11 @@ const teamMembers = [
         profileLink: 'https://www.linkedin.com/in/rajatrajput2004/'
     },
     {
-        name: 'Diksha',
-        role: 'Ex - AIML Intern @ Mishka Tech | Summer Intern\'24 @ OHSL | Summer Intern\'23 @ MNNIT Allahabad | Co-Chairperson @ MLSC Amity | AIML Enthusiast',
-        imageSrc: './assets/members/diksha.jpg',
-        profileLink: 'https://www.linkedin.com/in/diksha1406/'
-    },
+        name: 'Deep Agarwal',
+        role: ' Intern @NeoByte Career Acceleration Program offered by Kernel Synergy| CSE Enthusiasts | AI ML | Excited to explore the world of tech!',
+        imageSrc: './assets/members/Deep.JPG',
+        profileLink: 'https://www.linkedin.com/in/deepagarwal07'
+    }, 
     {
         name: 'Aadya Chopra',
         role: 'Former-Intern @BharatXR | Design Team Lead @ MLSC | Amity\'26 | B tech CSE with Data Science (Hons) | Data Science | UI/UX Designing | Graphics Designing',
@@ -69,13 +69,7 @@ const teamMembers = [
         role: 'Building with ML | Designing | GDG On Campus Lead',
         imageSrc: './assets/members/kanchan.jpg',
         profileLink: 'https://www.linkedin.com/in/kanchan-rai-90271a24a'
-    },
-    {
-        name: 'Deep Agarwal',
-        role: 'CSE Enthusiasts | AI ML | Excited to explore the world of tech!',
-        imageSrc: './assets/members/Deep.JPG',
-        profileLink: 'https://www.linkedin.com/in/deepagarwal07'
-    },  
+    }, 
     
     {
         name: 'Pratham Gaur',
@@ -87,12 +81,8 @@ const teamMembers = [
         role: 'Operations & PR/Editorial Team @ MLSC',
         imageSrc: './assets/members/priyansi.jpg',
         profileLink: 'https://www.linkedin.com/in/priyansi-nayak-a1a94b244'
-    },    {
-        name: 'Reeti Mehra',
-        role: 'Psychology, working as an intern in 2 ngos right now',
-        imageSrc: './assets/members/reeti.jpg',
-        profileLink: 'https://www.linkedin.com/in/imanurag2311/'
-    },    {
+    }, 
+    {
         name: 'Saisha Goel',
         role: 'AI/ML Enthusiast || Content Writer || Aspiring Developer || CSE’27',
         imageSrc: './assets/members/saisha.jpg',
