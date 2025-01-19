@@ -6,6 +6,12 @@ const teamMembers = [
         imageSrc: './assets/members/rajat.jpg',
         profileLink: 'https://www.linkedin.com/in/rajatrajput2004/'
     },
+     {
+        name: 'Deep Agarwal',
+        role: 'Intern @NeoByte Career Acceleration Program offered by Kernel Synergy | CSE Enthusiasts | AI ML | Excited to explore the world of tech!',
+        imageSrc: './assets/members/Deep.JPG',
+        profileLink: 'https://www.linkedin.com/in/deepagarwal07'
+    }, 
     {
         name: 'Aadya Chopra',
         role: 'Former-Intern @BharatXR | Design Team Lead @ MLSC | Amity\'26 | B tech CSE with Data Science (Hons) | Data Science | UI/UX Designing | Graphics Designing',
@@ -63,13 +69,7 @@ const teamMembers = [
         role: 'Building with ML | Designing | GDG On Campus Lead',
         imageSrc: './assets/members/kanchan.jpg',
         profileLink: 'https://www.linkedin.com/in/kanchan-rai-90271a24a'
-    },
-    {
-        name: 'Deep Agarwal',
-        role: 'CSE Enthusiasts | AI ML | Excited to explore the world of tech!',
-        imageSrc: './assets/members/Deep.JPG',
-        profileLink: 'https://www.linkedin.com/in/deepagarwal07'
-    },  
+    }, 
     
     {
         name: 'Pratham Gaur',
