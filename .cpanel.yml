@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/hercyivl/mlsc-amity.tech/
+    - cp -R * $DEPLOYPATH
