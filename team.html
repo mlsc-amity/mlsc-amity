@@ -1,136 +1,193 @@
-<!DOCTYPE html>
-<html lang="en" class="astro-TVFYRAX6">
+// Data for team members
+const teamMembers = [
+    {
+        name: 'Rajat Rajput',
+        role: 'Microsoft Learn Student Ambassador & Community Leader',
+        imageSrc: './assets/members/rajat.jpg',
+        profileLink: 'https://www.linkedin.com/in/rajatrajput2004/'
+    },
+    {
+        name: 'Deep Agarwal',
+        role: 'Intern at @NeoByte Career Acceleration Program offered by Kernel Synergy | Tech Team Lead @MLSC Amity | CSE Enthusiast | AI ML | Developer'   ,
+        imageSrc: './assets/members/Deep.JPG',
+        profileLink: 'https://www.linkedin.com/in/deepagarwal07'
+    },
+    {
+        name: 'Aadya Chopra',
+        role: 'Former-Intern @BharatXR | Design Team Lead @ MLSC | Amity\'26 | B tech CSE with Data Science (Hons) | Data Science | UI/UX Designing | Graphics Designing',
+        imageSrc: './assets/members/aadya.jpg',
+        profileLink: 'https://www.linkedin.com/in/aadyachopra/'
+    },
+    {
+        name: 'Vedant Tyagi',
+        role: 'Deploying and Securing Applications | Technical Team Member @ MLSC Amity | Cloud Computing | DevOps',
+        imageSrc: './assets/members/Vedant.jpeg',
+        profileLink: 'https://www.linkedin.com/in/vedanttyagi18'
+    },
+    {
+        name: 'Deewakar Singh',
+        role: 'Social Media Team @ Microsoft Learn Student Community | Aerospace Engineering | Computer Science !',
+        imageSrc: './assets/members/Deewakar.jpeg',
+        profileLink: 'https://www.linkedin.com/in/deewakar-singh/'
+    },
+    {
+        name: 'Anam Singh',
+        role: 'Dedicated and driven CSE undergrad with a passion for Software Development. Eager to apply my technical skills and problem-solving abilities to real-world projects. Worked as an Assistant Program Manager in Season of AI conducted by MLSC Amity ✨',
+        imageSrc: './assets/members/Anam.jpeg',
+        profileLink: 'https://www.linkedin.com/in/anam-singh-142182231/'
+    },
+    {
+        name: 'Ananyaa M',
+        role: 'BTech CSE Undergraduate | AI/ML and Software enthusiast',
+        imageSrc: './assets/members/ananyaa.jpg',
+        profileLink: 'https://www.linkedin.com/in/ananyaa-m-78b2a9229/'
+    },
+    {
+        name: 'Anurag Yadav',
+        role: 'Data Science Enthusiast | Exploring DSA and Web Development',
+        imageSrc: './assets/members/anurag.jpg',
+        profileLink: 'https://www.linkedin.com/in/imanurag2311/'
+    },
+    {
+        name: 'Archi Awana',
+        role: 'Computer engineering student',
+        imageSrc: './assets/members/archi.jpg',
+        profileLink: 'https://www.linkedin.com/in/archi-awana-752ab1323'
+    },
+    {
+        name: 'Archita Bhattacharya',
+        role: 'Cloud Computing Explorer | Aspiring DevOps Engineer',
+        imageSrc: './assets/members/archita.jpg',
+        profileLink: 'https://www.linkedin.com/in/archita-bhattacharya-a5a365291'
+    },    {
+        name: 'Ayush Kumar',
+        role: 'CSE Enthusiast, Video Editor',
+        imageSrc: './assets/members/ayush.jpg',
+        profileLink: 'https://www.linkedin.com/in/ayushhz/'
+    },    {
+        name: 'Kanchan Rai',
+        role: 'Building with ML | Designing | GDG On Campus Lead',
+        imageSrc: './assets/members/kanchan.jpg',
+        profileLink: 'https://www.linkedin.com/in/kanchan-rai-90271a24a'
+    },  
+    {
+        name: 'Pratham Gaur',
+        role: '2nd Year B.Tech CSE Data Science | @Amity University Noida  | Python | NPTEL IIT Madras Python | MySQL | C Programming | Learning C++ Programming and Web Development',
+        imageSrc: './assets/members/pratham.jpg',
+        profileLink: 'https://www.linkedin.com/in/pratham-gaur-ba345128a'
+    },    {
+        name: 'Priyansi Nayak',
+        role: 'Operations & PR/Editorial Team @ MLSC',
+        imageSrc: './assets/members/priyansi.jpg',
+        profileLink: 'https://www.linkedin.com/in/priyansi-nayak-a1a94b244'
+    },    
+        {
+        name: 'Saisha Goel',
+        role: 'AI/ML Enthusiast || Content Writer || Aspiring Developer || CSE’27',
+        imageSrc: './assets/members/saisha.jpg',
+        profileLink: 'https://www.linkedin.com/in/saisha-goel'
+    },    {
+        name: 'Shiven Vasan',
+        role: 'Student | Part time Philosopher',
+        imageSrc: './assets/members/shiven.jpg',
+        profileLink: 'https://www.linkedin.com/in/shivenvasan'
+    },    {
+        name: 'Simran',
+        role: 'undergraduate in btech cse | web development and aiml enthusiast',
+        imageSrc: './assets/members/simran.jpg',
+        profileLink: 'https://www.linkedin.com/in/simran-nagpal-a28169296'
+    },
+    ,    {
+        name: 'Yashika Verma',
+        role: 'B.Tech Artificial Intelligence Student | Intern @ Codsoft | Joint Secretary @ ASET | Event Organizer | Oman Women\'s National Cricket Team Ex-Member |',
+        imageSrc: './assets/members/yashika.jpg',
+        profileLink: 'https://www.linkedin.com/in/yashika-verma-83074922a'
+    },
+    {
+        name: 'Vanshika Chauhan',
+        role: 'Data science and analysis | Volunteer @LittleSeedsNGO | PR and Operation team @MLSC | CRC Volunteer @AIB | Btech. Bioinformatics student | Amity University Noida',
+        imageSrc: './assets/members/Vanshika.jpg',
+        profileLink: 'https://www.linkedin.com/in/vanshika-chauhan-vc2003'
+    },
+    {
+        name: 'Shashank Upadhyay ',
+        role: 'Computer Science & Engineering Student (B.Tech.) | Specializing in Data Science at Amity University | B2.1 Level German Student at Goethe Institut/Max Mueller Bhavan',
+        imageSrc: './assets/members/Shashank.jpeg',
+        profileLink: 'https://www.linkedin.com/in/shashank131106'
+    },
+    {
+        name: 'Faizan Ahmaad',
+        role: 'Building Frontend | Backend Developer | Flutter Developer | Ui/Ux Designer | Graphic Designing | Frontend Developer Learning Ai/Ml',
+        imageSrc: './assets/members/Faizan.jpg',
+        profileLink: 'https://www.linkedin.com/in/faizanahmaad/'
+    },
+    {
+        name: 'Siddharth Gupta ',
+        role: 'Front-end developer | Microsoft Learn Student Community Core team member | CSE27',
+        imageSrc: './assets/members/Siddharth.jpeg',
+        profileLink: 'https://www.linkedin.com/in/siddharth-gupta1003/'
+    },
+    
+];
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <meta name="generator" content="Astro v1.9.2">
-  <meta name="description" content="Template built with tailwindcss using Tailus blocks v2">
-  <title>Microsoft Learn Student Community Team</title>
+// Function to generate team members dynamically
+function generateTeamMembers() {
+    const listContainer = document.getElementById('teamMembersList');
 
-  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="index.css" />
-  <script type="module">let e = !1; const s = document.querySelector("#navlinks"), l = document.querySelector("#hamburger"), t = document.querySelector("#navLayer"), i = [...s.querySelector("ul").children]; function a() { e ? (s.classList.add("!visible", "!scale-100", "!opacity-100", "!lg:translate-y-0"), l.classList.add("toggled"), t.classList.add("origin-top", "scale-y-100")) : (s.classList.remove("!visible", "!scale-100", "!opacity-100", "!lg:translate-y-0"), l.classList.remove("toggled"), t.classList.remove("origin-top", "scale-y-100")) } l.addEventListener("click", () => { e = !e, a() }); i.forEach(c => { c.addEventListener("click", () => { e = !e, a() }) });
-  </script>
-</head>
+    teamMembers.forEach((member, index) => {
+        // Create list item (li) element
+        const listItem = document.createElement('li');
+        listItem.className = 'group border bg-vulcan-800 border-white/5 overflow-hidden rounded-3xl shadow-vulcan-950 shadow-2xl';
 
-<body class="bg-white dark:bg-gray-900 astro-TVFYRAX6">
+        // Create anchor element
+        const anchor = document.createElement('a');
+        anchor.href = member.profileLink;
+        anchor.title = `Team Member`;
 
-
-  <header class="astro-DCV3EO5O">
-    <nav class="absolute z-10 w-full border-b border-black/5 dark:border-white/5 lg:border-transparent astro-DCV3EO5O">
-      <section aria-labelledby="navigation" id="navigation"
-        class="fixed z-50 w-full overflow-hidden border-b relatve bg-vulcan-900/20 border-white/5 backdrop-blur-2xl lg:bg-vulcan-900/0 astro-DCV3EO5O">
-        <div class="relative w-full mx-auto max-w-7xl astro-DCV3EO5O">
-          <div x-data="{ open: false }"
-            class="relative flex flex-col w-full px-8 py-5 mx-auto md:items-center md:justify-between md:flex-row md:px-12 lg:px-32 astro-DCV3EO5O">
-            <div class="flex flex-row items-center justify-between text-white lg:justify-start astro-DCV3EO5O">
-              <a href="/" class="lg:pr-8 astro-DCV3EO5O">
-                <div class="inline-flex items-center gap-3 astro-DCV3EO5O">
-                  <p class="text-2xl font-bold uppercase astro-DCV3EO5O">MLSC Amity</p>
-                </div>
-              </a>
-              <button @click="open = !open"
-                class="inline-flex items-center justify-center p-2 text-white hover:text-indigo-400 focus:outline-none focus:text-white md:hidden astro-DCV3EO5O">
-                <svg class="w-6 h-6 astro-DCV3EO5O" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                  <path :class="{'hidden': open, 'inline-flex': !open }" class="inline-flex astro-DCV3EO5O"
-                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                  <path :class="{'hidden': !open, 'inline-flex': open }" class="hidden astro-DCV3EO5O"
-                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                </svg>
-              </button>
-            </div>
-            <nav :class="{'flex': open, 'hidden': !open}"
-              class="flex-col items-center flex-grow hidden md:pb-0 md:flex md:justify-end md:flex-row astro-DCV3EO5O">
-              <a href="join.html"
-                class="rounded-lg px-4 py-2 text-sm h-8 transition-all flex items-center justify-center text-white bg-gradient-to-b from-white/[.105] to-white/[.15] hover:to-white/[.25] h-10 ring-1 ring-inset ring-white/20 astro-DCV3EO5O">
-                Join MLSC Amity
-              </a>
-              <a class="px-2 py-2 text-sm font-normal text-white lg:px-6 md:px-3 hover:text-white/50 astro-DCV3EO5O"
-                href="https://youtube.com/@mlscamity">Youtube</a>
-              <a class="px-2 py-2 text-sm font-normal text-white lg:px-6 md:px-3 hover:text-white/50 astro-DCV3EO5O"
-                href="https://instagram.com/msc.amity">Instagram</a>
-              <a class="px-2 py-2 text-sm font-normal text-white lg:px-6 md:px-3 hover:text-white/50 astro-DCV3EO5O"
-                href="team.html">Team</a>
-            </nav>
-          </div>
-        </div>
-      </section>
-    </nav>
-  </header>
+        // Create image container and image
+        const imageContainer = document.createElement('div');
+        imageContainer.className = 'flex items-end shadow-2xl shadow-vulcan-950 justify-center overflow-hidden rounded-t-3xl';
+        const imageWrapper = document.createElement('div');
+        imageWrapper.className = 'flex object-cover';
+        const image = document.createElement('img');
+        image.style.width = '500px';    
+        image.style.height = '450px';
+        image.style.objectFit = 'cover';
+        image.src = member.imageSrc;
+        image.alt = member.name;
+        image.className = 'group-hover:scale-110 duration-300';
+        image.loading = 'lazy';
 
 
-  <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
-    <main class="pt-24 mb-10">
+        imageWrapper.appendChild(image);
+        imageContainer.appendChild(imageWrapper);
+        anchor.appendChild(imageContainer);
 
-      <div class="mx-auto p-4">
-        <h1 class="text-3xl font-bold mb-6 text-white">Team Members</h1>
-        <div id="teamMembersList" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+        // Create member details container
+        const detailsContainer = document.createElement('div');
+        detailsContainer.className = 'p-8';
 
-        </div>
-      </div>
-    </main>
-  </div>
-  <footer class="py-20 md:py-40" id="footer">
-    <div class="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
-      <div class="m-auto md:w-10/12 lg:w-8/12 xl:w-6/12">
-        <div class="flex flex-wrap items-center justify-between md:flex-nowrap">
-          <div
-            class="flex w-full justify-center space-x-12 text-gray-600 dark:text-gray-300 sm:w-7/12 md:justify-start">
-            <ul class="list-inside list-disc space-y-8">
-              <li><a href="index.html" class="transition hover:text-primary">Home</a></li>
-              <li><a href="#" class="transition hover:text-primary">Team</a></li>
-              <li><a href="#" class="transition hover:text-primary">Contact</a></li>
-            </ul>
+        // Create member name
+        const name = document.createElement('h3');
+        name.className = 'mt-5 text-lg font-medium leading-6 text-white';
+        name.textContent = member.name;
 
-            <ul role="list" class="space-y-8">
-              <li>
-                <a href="https://bit.ly/mlsa_wa" class="flex items-center space-x-3 transition hover:text-primary">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-5" viewBox="0 0 16 16">
-                    <path
-                      d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z">
-                    </path>
-                  </svg>
-                  <span>WhatsApp</span>
-                </a>
-              </li>
-              <li>
-                <a href="https://instagram.com/msc.amity"
-                  class="flex items-center space-x-3 transition hover:text-primary">
-                  <svg width="24px" height="24px" viewBox="0 0 24 24" fill="currentColor" class="w-5" role="img"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <title>Instagram icon</title>
-                    <path
-                      d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
-                  </svg>
-                  <span>Instagram</span>
-                </a>
-              </li>
-              <li>
-                <a href="https://youtube.com/@mlscamity?sub_confirmation=1"
-                  class="flex items-center space-x-3 transition hover:text-primary">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-5" viewBox="0 0 16 16">
-                    <path
-                      d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z">
-                    </path>
-                  </svg>
-                  <span>Youtube</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="m-auto mt-16 w-10/12 space-y-6 text-center sm:mt-auto sm:w-5/12 sm:text-left">
-            <span class="block text-gray-500 dark:text-gray-400">Be a Force for good.</span>
+        // Create member role
+        const role = document.createElement('p');
+        role.className = 'mt-2 text-base text-vulcan-300 line-clamp-1 text-white';
+        role.textContent = member.role;
 
-            <span class="block text-gray-500 dark:text-gray-400">MLSC Amity &copy; 2024<span id="year"></span></span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+        detailsContainer.appendChild(name);
+        detailsContainer.appendChild(role);
 
-</body>
-<script src="script.js"></script>
-</html>
+        // Append anchor and details container to list item
+        listItem.appendChild(anchor);
+        listItem.appendChild(detailsContainer);
 
+        // Append list item to the team members list container
+        listContainer.appendChild(listItem);
+    }
+)}  
+
+  // Call function to generate team members
+  generateTeamMembers();
