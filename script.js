@@ -8,7 +8,7 @@ const teamMembers = [
     },
     {
         name: 'Deep Agarwal',
-        role: 'Intern at @NeoByte Career Acceleration Program offered by Kernel Synergy | Tech Team Lead @MLSC Amity | CSE Enthusiast | AI ML | Developer ,
+        role: 'Intern at @NeoByte Career Acceleration Program offered by Kernel Synergy | Tech Team Lead @MLSC Amity | CSE Enthusiast | AI ML | Developer' ,
         imageSrc: './assets/members/Deep.JPG',
         profileLink: 'https://www.linkedin.com/in/deepagarwal07'
     },
